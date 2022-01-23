@@ -8,5 +8,10 @@
         {% endif %}
         <h2>{{ post.title }}</h2>
         <p>{{ post.text }}</p>
+        <aside class="actions">
+            <a class="btn btn-secondary" href="{% url 'post_edit' pk=post.pk %}">
+                Edit
+            </a>
+        </aside>
     </article>
 {% endblock %}
