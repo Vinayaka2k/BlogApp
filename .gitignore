@@ -1,8 +1,15 @@
+# Python
+*.pyc
+*~
+__pycache__
 
 # Env
 .env
 myenv/
 venv/
+
+# Database
+db.sqlite3
 
 # Static folder at project root
 /static/
@@ -18,17 +25,3 @@ $RECYCLE.BIN/
 .history/
 *.code-workspace
 
-# Distribution / packaging
-.Python
-venv/
-env/
-*.sqlite3
-.idea/
-# Project asset folders
-media/
-# Database
-db.sqlite3
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class

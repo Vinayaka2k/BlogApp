@@ -1,1 +1,7 @@
 Django~=3.2.10
+dj_database_url
+django_heroku
+gunicorn
+python-decouple
+psycopg2
+whitenoise
